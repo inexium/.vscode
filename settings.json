@@ -1,0 +1,62 @@
+{
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        79
+    ],
+    "autoHide.panelDelay": 1,
+    "autoHide.sideBarDelay": 1,
+
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": 3,
+    "files.autoSave": "afterDelay",
+
+    "prettier.useTabs": true,
+
+    "ruff.lineLength": 79,
+
+    "workbench.activityBar.location": "default",
+    "window.customTitleBarVisibility": "never",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle",
+    "chat.commandCenter.enabled": false,
+
+    /* PRETTIER WIDTH : CHECK BEHAVIOR 
+    https://prettier.io/docs/options#print-width */
+    // "prettier.printWidth": true,
+
+    /* FOR HTML : CHECK BEHAVIOR FIRST */
+    // "editor.linkedEditing": true,
+
+    /* TOGGLE LIGHT THEME */
+    // "workbench.colorTheme": "Visual Studio Light",
+
+    "files.associations": {
+        "*.tw.css": "tailwindcss",
+        "*.tailwind.css": "tailwindcss"
+    },
+    
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview"
+    },
+
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[django-html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "monosans.djlint",
+        "editor.rulers": []
+    },
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
