@@ -21,7 +21,8 @@
             "mechatroner.rainbow-csv",
             "bradlc.vscode-tailwindcss",
             "astral-sh.ty",
-            "tomoki1207.pdf"
+            "tomoki1207.pdf",
+            "souravahmed.flash-vscode-latest"
     ],
     // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
     "unwantedRecommendations": [
